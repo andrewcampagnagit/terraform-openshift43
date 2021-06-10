@@ -4,6 +4,7 @@ cluster_name = "ocp43"
 # Machines
 azure_bootstrap_vm_type = "Standard_D4s_v3"
 azure_master_vm_type = "Standard_D8s_v3"
+azure_resource_group_name = "Compute resource group name"
 
 # From Prereq. Step #1
 base_domain                           = "azure.example.com"
