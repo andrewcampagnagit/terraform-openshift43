@@ -19,6 +19,8 @@ azure_client_secret    = "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA"
 # Custom network
 azure_network_resource_group_name  = "Network-Resource-Group"
 azure_virtual_network = "vNet-Name"
+
+# You can specify the same subnet for control/compute if needed
 azure_control_plane_subnet = "subnet-A"
 azure_compute_subnet = "subnet-B"
 use_ipv4 = true
